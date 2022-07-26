@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer_profile</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/customer_profile.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+</head>
+<body>
+     <!---start of background image-->
+     <div class="bg">
+         <div class="container">
+             <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg-4">
+                </div>
+                 <div class="col-sm-4 col-md-6 col-lg-8">
+                     <div class="jumbotron box">
+                      <h1 class="header">PERSONAL INFORMATION OF THE CUSTOMER</h1>
+                      <p class="text-1 mt-5">Customer ID: 101</p>
+                      <p class="text-1">Customer Name: Maleeha Kaikaus</p>
+                      <p class="text-1">Email Address: mkaikaus30@gmail.com</p>
+                      <p class="text-1">Address: Dhaka</p>
+                      <p class="text-1">Area Code: 1217</p>
+                      <p class="text-1">Phone Number: 01636538666</p>
+                      <br><br>
+                      <h2 class="header text-danger">If You Want To Delete Your Information From Your Account</h2>
+                      <button type="submit" class="btn  btn-lg active  btn-1 px-5 mt-3" name="delete">DELETE <i class="fas fa-trash"></i></button>
+                       <!-- <a href="#" class="btn  btn-lg active  btn-1 px-5 mt-3" role="button" aria-pressed="true">DELETE <i class="fas fa-trash"></i></a>  -->
+                       <h2 class="header mt-5 text-dark">If You Want To Edit Your Information In Your Account</h2>
+                       <button type="submit" class="btn btn-warning btn-1 mb-3 mt-2" name="edit">EDIT <i class="fas fa-edit"></i></button>
+    
+                       <h2 class="header mt-5">If You Want To  Book Our Service</h2>
+                       
+                       <a href="#" class="btn  btn-lg active  btn-1 px-5 mt-3" role="button" aria-pressed="true">Make A Reservation</a>
+                      <hr class="mt-5">
+                      <a class="log" href="#">LOG OUT <i class="fas fa-sign-out-alt"></i></a>
+                     </div>
+                </div>
+             </div>
+         </div>
+     </div>
+
+      <!--end of a background image-->
+
+
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+            <script>
+                // Add the following code if you want the name of the file appear on select
+                $(".custom-file-input").on("change", function() {
+                  var fileName = $(this).val().split("\\").pop();
+                  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+                });
+                </script>
+</body>
+</html>

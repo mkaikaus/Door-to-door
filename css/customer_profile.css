@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg img{
+    width:100%;
+}
+.bg{
+    background-image:url("../media/p3.jpg"); 
+    height: 210vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+    margin-top:100px;
+    background-color:white;
+    border-radius:10%;
+   
+    
+}
+.header{
+    color:rgb(241, 196, 15);
+    font-weight:bolder;
+}
+.text-1{
+    font-weight:bold;
+    font-size:20px;
+}
+hr{
+   
+    border:1px solid black;
+}
+.log{
+    color:rgb(241, 196, 15);
+    font-size:30px;
+    font-weight:bold;
+
+}
+.btn-1{
+    background-color:black;
+    color:rgb(241, 196, 15);
+    border-radius:25px;
+    font-weight:bold;
+}
+.btn-1:hover{
+    background-color:rgb(241, 196, 15);
+    color:black;
+    transform:scale(1.1);
+    transition:0.7s;
+    box-shadow: 0 0 10px rgb(241, 196, 15);
+}
+.ans{
+    margin-left:35px;
+    color:rgb(241, 196, 15);
+}

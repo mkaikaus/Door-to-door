@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    position: fixed;
+    z-index: 3;
+}
+
+.bg img{
+    width:100%;
+}
+.bg{
+    background-image:url("../media/bg-6.jpg"); 
+    height: 120vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+      margin-top:50px;
+     background-color:transparent;
+     box-shadow: 0 0  20px black;
+     z-index: 3;
+}
+.header{
+    color:rgb(241, 196, 15);
+    font-weight: bold;
+}
+label{
+    color:rgb(241, 196, 15);
+    font-weight: bold;
+}
+.form-box{
+    border-radius:25px;
+
+}
+.mybtn{
+    background-color:rgb(241, 196, 15);
+    color:black;
+    border-radius: 25px;
+    border: 1px solid rgb(241, 196, 15);
+    font-weight:bold;
+    margin-left:250px;
+}
+.mybtn:hover{
+    background-color:black;
+    color:rgb(241, 196, 15);
+    border: 1px solid black;
+    transform:scale(1.1);
+    transition:0.7s;
+}

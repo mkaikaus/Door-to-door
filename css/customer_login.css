@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg img{
+    width:100%;
+}
+.bg{
+    background-image:url("../media/bg-6.jpg"); 
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box{
+    margin-top:80px;
+    background-color:transparent;
+    box-shadow:0 0 20px black;
+    border-radius: 25px;
+}
+
+.sign{
+    color:rgb(241, 196, 15);
+    font-weight: bolder;
+  
+}
+label{
+     color:rgb(241, 196, 15);;
+     font-weight: bold;
+}
+.text{
+    color:rgb(241, 196, 15)!important;
+}
+.btn-1{
+   background-color:rgb(241, 196, 15);
+   color:black;
+   padding: 10px 55px;
+   border-radius: 25px;
+   border:1px solid rgb(241, 196, 15);
+   font-weight:bold;
+}
+.btn-1:hover{
+    background-color:black;
+   color:rgb(241, 196, 15);
+   transform:scale(1.1);
+   transition:0.7s;
+   border:1px solid black;
+}
+.ic{
+    background-color:rgb(236, 240, 241)!important;
+    border:2px solid rgb(241, 196, 15);
+} 
+.account{
+    font-weight: bolder;
+    float: right;
+    font-size:20px;
+    color:rgb(241, 196, 15);
+}
